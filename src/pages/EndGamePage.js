@@ -46,4 +46,3 @@ const EndGamePage = () => {
 };
 
 export default EndGamePage;
-

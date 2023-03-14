@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { cancelFetchQuestions } from '../../src/store/slices/gameState.slice';
-import Button from '../../src/components/Button';
+import { cancelFetchQuestions } from '../store/slices/gameState.slice';
+import Button from '../components/Button';
 
 const FetchingGamePage = () => {
   const dispatch = useDispatch();

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { answerQuestion } from '../../src/store/slices/quiz.slice';
-import { finishGame } from '../../src/store/slices/gameState.slice';
-import Button from '../../src/components/Button';
+import { answerQuestion } from '../store/slices/quiz.slice';
+import { finishGame } from '../store/slices/gameState.slice';
+import Button from '../components/Button';
 
 const GamePage = () => {
   const dispatch = useDispatch();
@@ -63,3 +63,5 @@ const GamePage = () => {
 };
 
 export default GamePage;
+
+
